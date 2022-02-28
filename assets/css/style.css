@@ -1,0 +1,193 @@
+.section{
+    background-color: var(--bg);
+    padding-bottom: 2rem;
+}
+.container-section{
+    visibility: hidden;
+}
+.container-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+}
+.title, .subtitle, .subtitle2, .fale-comigo{
+    margin-bottom: 1em;
+}
+.title{
+    font-size: 1.7rem;
+}
+.subtitle, .subtitle2{
+    width: 70%;
+}
+.subtitle h3{
+    font-size: 1.7rem;
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 600;    
+}
+.subtitle2 h5{
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.fale-comigo{
+    text-align: center;
+}
+.fale-comigo p{
+    margin-bottom: 1.5em;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 24px;
+}
+.fale-comigo a{
+    background-color: var(--text-white);
+    color: var(--bg);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .5s;
+}
+.fale-comigo a:hover{
+    background-color: var(--bg-hover);
+    color: var(--text-white);
+}
+
+/*Sobre mim*/
+.sobre-bg{
+    background-color: var(--bg-card);
+}
+.sobre-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.foto{
+    order: 0;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    padding: 80px 40px; 
+    order: 1;
+}
+.content h1{
+    margin-bottom: 16px;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.content h2{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.content h3{
+    margin-bottom: 60px;
+    max-width: 62ch;
+    font-weight: 200;
+    line-height: 25.5px;
+}
+.redes{
+    order: 2;
+    display: flex;
+    gap: 20px;
+}
+
+/*Galeria*/
+.portifolio h1, .portifolio p{
+    color: var(--bg);
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/*Perguntas*/
+.container_perguntas{
+    background-color: var(--bg);
+}
+.container_acordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.container_acordion h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+.accordion{
+    background: var(--bg-card);
+    cursor: pointer;
+    margin: 1rem;
+    padding: 18px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s;
+}
+
+.painel{
+    padding: 0 18px;
+    text-align: center;
+    background-color: var(--bg);
+    max-height: 0;
+    overflow: hidden;
+    font-size: 1.2rem;
+    transition: max-height .4s ease-out;
+}
+
+.accordion:after{
+    content: '\002B';
+    font-size: 1.5rem;
+    color: var(--bg-hover);
+    float: right;
+    margin-left: 5px;
+}
+.activeAcc:after{
+    content: "\2212";
+}
+
+/*Footer*/
+footer{
+    background-color: var(--bg);
+    text-align: center;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.redes_sociais ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer p{
+    padding-bottom: 20px;
+    color: #a2a2a2;
+}
