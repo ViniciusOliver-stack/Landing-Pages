@@ -100,3 +100,21 @@
         font-size: 1.2rem;
     }
 }
+
+@media(min-width: 320px) and (max-width: 768px){
+    .container_acordion{
+        text-align: center;
+    }
+    .container_acordion h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .accordion{
+        font-size: 1.1rem;
+    }
+    .painel p{
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+}
