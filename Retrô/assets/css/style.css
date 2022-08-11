@@ -1,0 +1,154 @@
+@import url(./reset.css);
+
+body{
+  background: #121212;
+  overflow-x: hidden;
+}
+
+nav{
+  position: fixed;
+  z-index: 1000;
+  width: 96%;
+  height: 8vh;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+nav .nav-links ul{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.nav-links ul li a{
+  font-size: 1.2rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  font-size: 1.5rem;
+}
+.logo img{
+  width: 3.5rem;
+}
+
+section{
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*==== Section One ===============*/
+.bg img{
+  width: 110vw; /*Faz com que vejamos toda a imagem*/
+  height: 100vh;
+  filter: brightness(.6); /*Faz com que a imagem fique mais escura*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mario img{
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  left: 38vw;
+  top: 25vh;
+  z-index: 200;
+  filter: brightness(0.8);
+}
+.title img {
+  width: 60rem;
+  height: 18rem;
+
+  position: absolute;
+  z-index: 1000;
+  top: 50vh;
+  left: 25vw;
+  filter: brightness(1.2);
+}
+
+/*==== Section Two =========*/
+.section-two{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.console-links{
+  width: 100%;
+  height: 6vh;
+  color: red;
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.console-links .swiper-pagination-bullet{
+  opacity: .2;
+  outline: none;
+}
+
+.console-links .swiper-pagination-bullet-active{
+  color: #fff;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: transparent;
+  font-size: 1rem;
+}
+
+.swiper-container {
+  width: 80%;
+  margin: 7rem auto 0;
+  
+}
+
+.swiper-slide{
+  height: 40rem !important;
+  width: 90% !important;
+  background: transparent;
+  
+
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.slide-img img{
+  width: 15vw;
+}
+.slide-text img{
+  width: 20vw;
+  position: absolute;
+  top: 10%;
+}
+
+.slide-detail{
+  margin: 7rem 0 0;
+}
+
+.slide-detail span{
+  font-size: 1.2rem;
+}
+
+.slide-detail-facts div{
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.slide-detail-facts span{
+  font-weight: 500;
+}

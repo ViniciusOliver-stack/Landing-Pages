@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 1.6rem;
+  font-family: 'Press Start 2P', cursive;
+
+  color: white;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(44, 44, 44);
+  border-radius: 2rem;
+  border: 3px solid none;
+}
+
+:root{
+  font-size: 62.5%;
+}
