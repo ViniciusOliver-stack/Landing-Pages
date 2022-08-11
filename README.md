@@ -18,5 +18,5 @@
  # 💻 Projetos
 ### Bluegrafias 🦋
 
-<a target="_blank" href="https://viniciusoliver-stack.github.io/Landing-Pages/">🔗 Acesse o projeto</a>
+<a target="_blank" href="https://viniciusoliver-stack.github.io/Landing-Pages/Bluegrafias/index.html">🔗 Acesse o projeto</a>
 <img  src="https://i.imgur.com/Ud2o0Bd.png"  alt="">
